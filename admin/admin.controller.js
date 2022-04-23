@@ -4,7 +4,7 @@
 
 async function addAdmin(req,res) {
     try{
-       if(req.body.password == "123" && req.body.login =="123"){
+       if(req.body.password == "porto11$uz" && req.body.login =="Porto11$uz"){
         return res.status(200).send(true)
        } else{
         return res.status(200).send(false)
